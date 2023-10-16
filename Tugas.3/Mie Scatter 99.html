@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mie Scatter 99</title>
+</head>
+<body style="background-color: orangered;">
+    <center><h1>Mie Scatter 99</h1></center>
+
+    <form action="pesanan.html" method="post">
+    <center>
+     <img src="Assets/mie gacoan.jpg" alt="Gambar Mie" 200px;" width="150px">
+    </center>
+     <fieldset>
+        <legend>Reservasi</legend>
+        <table>
+            <tr>
+              <td>Nama:</td>
+              <td>
+                <input type="text" name="customername" placeholder="Nama Customer">
+              </td>
+             </tr> 
+
+            <tr>
+              <td>Alamat</td>
+              <td>
+                <textarea name="alamat" cols="30" rows="3" placeholder="Alamat" ></textarea>
+              </td>
+            </tr>
+
+            <tr>
+                <td>Telp</td>
+                <td>
+                    <input type="number" name="telephone" placeholder="No Telp">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Catatan Pesanan</td>
+                <td>
+                    <textarea name="Catatan" cols="30" rows="3" placeholder="Catatan"></textarea>
+                </td>
+            </tr>
+
+        </table>
+
+     </fieldset>
+
+        <h3>Buat Pesanan</h3>
+        
+        <fieldset>
+            <legend>Mie Scatter 99</legend>
+            <br>
+            Tingkat Kepedasan
+            <br>
+            <input type="radio" name="Tingkat Kepedasan" value="Level Malaikat">Level Malaikat
+            <br>
+            <input type="radio" name="Tingkat Kepedasan" value="Level Manusia"> Level Manusia
+            <br>
+            <input type="radio" name="Tingkat Kepedasan" value="Level Satan"> Level Satan
+            <br>
+            <input type="radio" name="Tingkat Kepedasan" value="Level Iblis"> Level Iblis
+            <br>
+            <input type="radio" name="Tingkat Kepedasan" value="Level Lucifier"> Level Lucifier
+            <br>
+            <input type="radio" name="Tingkat Kepedasan" value="Level Hades"> Level Hades
+
+
+            <br>
+            Topping
+            <br>
+            <input type="checkbox" name="Topping[]" value="Pangsit"> Pangsit
+            <br>
+            <input type="checkbox" name="Topping[]" value="Pangsit udang"> Pangsit udang
+            <br>
+            <input type="checkbox" name="Topping[]" value="Ceker"> Ceker
+            <br>
+            <input type="checkbox" name="Topping[]" value="Mozzarela"> Mozzarela
+            <br>
+            <input type="checkbox" name="Topping[]" value="Bakso"> Bakso
+            <br>
+
+            
+        <label for="pancong"> Berapa Pesanan</label>
+        <select name="pancong" id="pancong">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+
+        </fieldset>
+        <button type="Order">Order</button>
+        <button type="Hapus">Hapus </button>
+        <br>
+    </form>
+
+</body>
+</html>
