@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+fieldset{
+    background-color: deeppink;
+}
+
+legend{
+    background-color: cyan;
+}
+
+button{
+    padding: 6px 10px;
+    border: 0;
+    border-radius: 4px;
+    color: white;
+}
+
+.btn-green{
+    background-color: green;
+}
+
+.btn-red{
+    background-color: crimson;
+}

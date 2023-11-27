@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <fieldset>
+        <legend>Form Registrasi Tempat Rekreasi Wisata</legend>
+        
+        <table>
+            <tr>
+                <td>
+                    <label for="namaWisata">Nama Tempat Wisata</label>
+                </td>
+                <td>
+                    <input type="text" name="namaWisata" id="namaWisata" style="width: 345px;">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="jenisWisata">Jenis Wisata</label>
+                </td>
+
+                <td>
+                    <select name="jenisWisata" id="jenisWisata">
+                        <option value="">Taman</option>
+                        <option value="AnjunganAdat">Anjungan Adat</option>
+                        <option value="FW">Fun World</option>
+                        <option value="Gondola">Gondola</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="deskripsiWisata">Deskripsi Wisata</label>
+                </td>
+
+                <td>
+                    <textarea name="deskripsiWisata" id="deskripsiWisata" cols="45" rows="4"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="kontak">Kontak Person:</label>
+                </td>
+
+                <td>
+                    <input type="text" name="kontak" id="kontak">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="telepon">No HP/Telpon:</label>
+                </td>
+
+                <td>
+                    <input type="number" name="telepon" id="telepon">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="email">Email:</label>
+                </td>
+
+                <td>
+                    <input type="email" name="email" id="email">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="alamatWeb">Alamat Web:</label>
+                </td>
+
+                <td>
+                    <textarea name="alamatWeb" id="alamatWeb" cols="30" rows="2" placeholder="http://"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="alamatLengkap">Alamat Lengkap:</label>
+                </td>
+
+                <td>
+                    <textarea name="alamatLengkap" id="alamatLengkap" cols="45" rows="3"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="latitude">Latitude,Longitude :</label>
+                </td>
+
+                <td>
+                    <input type="text" name="latitude" id="latitude">
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td>
+                    <button type="submit" class="btn-green">Daftar</button>
+                    <button type="reset" class="btn-red">Batal</button>
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+</body>
+</html>
