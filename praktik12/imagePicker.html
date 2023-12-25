@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image picker</title>
+</head>
+<body>
+    <h1>Image Picker</h1>
+    <select id="selectMeme">
+        <option value="tolaktugas.png">Tolak Tugas</option>
+        <option value="ckptw.jpg">Terima kasih</option>
+        <option value="odading.jpg">Kuat-kuatin</option>
+        <option value="pintu.jpg">Mengetuk Pintu Hati</option>
+        <option value="sad.jpg">Sedih</option>
+    </select>
+    <br>
+    <br>
+
+    <img src="" id="image">
+
+    <script>
+        // tangkap elemen yg dibutuhkan
+        const selectMeme = document.getElementById("selectMeme")
+        const image = document.getElementById("image")
+        
+        
+        selectMeme.addEventListener("change", function(){
+
+            image.src = "img/" + selectMeme.value
+        })
+
+        image.src = "img/" + selectMeme.value
+    </script>
+</body>
+</html>
